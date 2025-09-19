@@ -1,6 +1,6 @@
 'use client';
 import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
-import { User, Mail, Lock, Globe, Github, ArrowUp } from 'lucide-react';
+import { User, Mail, Lock, Globe, Github} from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export default function ProfilePage() {
@@ -23,10 +23,10 @@ export default function ProfilePage() {
           </CardHeader>
           <CardContent className="grid md:grid-cols-2 gap-4">
             {[
-              { label: 'Full Name', icon: User, value: 'John Doe', color: 'text-blue-400' },
-              { label: 'Email', icon: Mail, value: 'john@example.com', color: 'text-purple-400' },
-              { label: 'Website', icon: Globe, value: 'johndoe.dev', color: 'text-green-400' },
-              { label: 'GitHub', icon: Github, value: '@johndoe', color: 'text-gray-400' },
+              { label: 'Full Name', icon: User, value: 'vikas', color: 'text-blue-400' },
+              { label: 'Email', icon: Mail, value: 'vikas@example.com', color: 'text-purple-400' },
+              { label: 'Website', icon: Globe, value: 'vikas.dev', color: 'text-green-400' },
+              { label: 'GitHub', icon: Github, value: '@Gitvikas', color: 'text-gray-400' },
             ].map((item, idx) => (
               <div key={idx} className="space-y-1">
                 <label className="flex items-center gap-2 text-sm text-gray-400">

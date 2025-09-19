@@ -13,7 +13,6 @@ export default function LoginPage() {
               Access your dashboard, manage your templates, and explore premium features.
             </p>
           </div>
-
           <div className="card bg-base-100 w-full max-w-sm shadow-2xl">
             <div className="card-body">
               <fieldset className="fieldset space-y-4">

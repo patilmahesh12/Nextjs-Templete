@@ -11,7 +11,7 @@ import {
   MobileNavMenu,
 } from "@/components/ui/resizable-navbar";
 import { useState } from "react";
-import Link from "next/link"; // Make sure this path is correct
+import Link from "next/link";
 
 export default function NavbarDemo() {
   const navItems = [

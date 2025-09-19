@@ -1,5 +1,5 @@
 'use client';
-import { Card, CardHeader, CardTitle, CardContent, CardFooter } from '@/components/ui/card';
+import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Bell, Moon, Lock, Shield, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
